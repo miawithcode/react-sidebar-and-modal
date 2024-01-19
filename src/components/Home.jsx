@@ -1,6 +1,9 @@
+import { useGlobalContext } from '../context';
+
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
-export default Home
+  const { openSidebar, openModal } = useGlobalContext();
+  console.log(openModal);
+
+  return <div>Home</div>;
+};
+export default Home;
