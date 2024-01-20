@@ -1,5 +1,9 @@
 ## Sidebar & Modal
 
+![](public/screenshot.png)
+![](public/screenshot-modal.png)
+![](public/screenshot-sidebar.png)
+
 ## Steps
 
 1. **Data** - 添加 `data.jsx` ，包含链接的文本、URL和图标
